@@ -1,4 +1,55 @@
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)[![Pandas](https://img.shields.io/badge/Pandas-1.5%2B-yellow?logo=pandas)](https://pandas.pydata.org/)[![NumPy](https://img.shields.io/badge/NumPy-1.23%2B-blueviolet?logo=numpy)](https://numpy.org/)[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.1%2B-f7931e?logo=scikit-learn)](https://scikit-learn.org/)[![imbalanced-learn](https://img.shields.io/badge/imbalanced--learn-0.10%2B-9cf?logo=python)](https://imbalanced-learn.org/)[![XGBoost](https://img.shields.io/badge/XGBoost-1.7%2B-00bfff?logo=xgboost)](https://xgboost.readthedocs.io/)[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-11557c?logo=matplotlib)](https://matplotlib.org/)[![Seaborn](https://img.shields.io/badge/Seaborn-0.12%2B-76b900?logo=python)](https://seaborn.pydata.org/)[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
+
 # Predicción de Supervivencia de Pacientes con Cirrosis mediante Machine Learning
+
+## Resumen del Proyecto
+
+Este repositorio contiene el desarrollo completo de un sistema de predicción de supervivencia para pacientes con cirrosis hepática, utilizando técnicas avanzadas de aprendizaje automático. El proyecto abarca desde la limpieza y preprocesamiento de datos clínicos reales, hasta la comparación de modelos, análisis de reducción de dimensionalidad y la generación de un informe científico en LaTeX y PDF.
+
+## Estructura del Repositorio
+
+- **notebook.ipynb**: Notebook principal con todo el flujo de trabajo: carga de datos, preprocesamiento, balanceo de clases (SMOTE), entrenamiento y validación de modelos, reducción de dimensionalidad (PCA), análisis de resultados y generación de gráficas.
+- **resultados.md**: Documento markdown que resume y organiza todos los resultados obtenidos en el notebook, con explicaciones y visualizaciones clave.
+- **Cirrosis.tex**: Informe científico completo en formato LaTeX, listo para compilar. Contiene toda la metodología, resultados, discusión y referencias, incluyendo las figuras generadas.
+- **Predicción_de_Supervivencia_de_Pacientes_con_Cirrosis_mediante_Machine_Learning.pdf**: Versión final en PDF del informe, generada a partir del archivo LaTeX.
+- **graficas/**: Carpeta con todas las figuras y gráficas generadas automáticamente por el notebook (en formato PNG), listas para ser incluidas en el informe.
+
+## ¿Cómo reproducir los resultados?
+
+1. **Instala los requisitos** (recomendado: entorno virtual):
+
+   - Python 3.8+
+   - Instala dependencias con:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - O instala manualmente: pandas, numpy, scikit-learn, imbalanced-learn, xgboost, matplotlib, seaborn, ucimlrepo
+
+2. **Ejecuta el notebook**:
+
+   - Abre `notebook.ipynb` en Jupyter o VSCode.
+   - Ejecuta todas las celdas desde el inicio. Esto generará automáticamente todas las gráficas en la carpeta `graficas/`.
+
+3. **Compila el informe LaTeX** (opcional):
+   - Asegúrate de tener instalado un compilador LaTeX (por ejemplo, TeX Live o MikTeX).
+   - Compila `Cirrosis.tex` para obtener el PDF final.
+
+## Archivos principales
+
+- `notebook.ipynb`: Código y experimentos reproducibles.
+- `resultados.md`: Resumen y visualización de resultados.
+- `Cirrosis.tex` / `PDF`: Informe científico final.
+- `graficas/`: Figuras generadas automáticamente.
+
+## Créditos y referencias
+
+- Datos: UCI Machine Learning Repository, Mayo Clinic.
+- Autores: David C. García-Echavarría, Juan E. Aristizábal-Aristizábal.
+- Para referencias completas, ver la sección de bibliografía en el informe LaTeX.
+
+---
+
+Si tienes dudas o deseas reproducir algún experimento, consulta el notebook o el informe para detalles metodológicos.
 
 ## Descripción
 
