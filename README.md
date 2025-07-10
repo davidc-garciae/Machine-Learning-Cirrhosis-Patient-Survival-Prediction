@@ -1,6 +1,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)[![Pandas](https://img.shields.io/badge/Pandas-1.5%2B-yellow?logo=pandas)](https://pandas.pydata.org/)[![NumPy](https://img.shields.io/badge/NumPy-1.23%2B-blueviolet?logo=numpy)](https://numpy.org/)[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.1%2B-f7931e?logo=scikit-learn)](https://scikit-learn.org/)[![imbalanced-learn](https://img.shields.io/badge/imbalanced--learn-0.10%2B-9cf?logo=python)](https://imbalanced-learn.org/)[![XGBoost](https://img.shields.io/badge/XGBoost-1.7%2B-00bfff?logo=xgboost)](https://xgboost.readthedocs.io/)[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-11557c?logo=matplotlib)](https://matplotlib.org/)[![Seaborn](https://img.shields.io/badge/Seaborn-0.12%2B-76b900?logo=python)](https://seaborn.pydata.org/)[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
 
 # Predicción de Supervivencia de Pacientes con Cirrosis mediante Machine Learning
+## [Video presentación del proyecto](https://youtu.be/k5Q1-Ky92Hg).
 
 ## Resumen del Proyecto
 
